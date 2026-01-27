@@ -1,0 +1,13 @@
+@use './base/font' as *;
+@use './base/variable' as *;
+@use './base/reset' as *;
+
+@use './components/buttons' as *;
+@use './components/rating' as *;
+@use './components/thank-you' as *;
+@use './components/footer' as *;
+
+@use './layout/container' as *;
+@use './layout/card' as *;
+
+@use './utilities/accessibility' as *;
