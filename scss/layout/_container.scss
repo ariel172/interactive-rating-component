@@ -1,0 +1,13 @@
+@use '../base/variable' as *;
+
+.container{
+    background-color: $grey-900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: $radius;
+    width: $font-size*21;
+    padding: $font-size*2;
+    margin: $font-size*2;
+}
