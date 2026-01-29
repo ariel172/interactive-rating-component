@@ -16,6 +16,22 @@ body {
   align-items: center;
 }
 
+.rating__icone {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(213, 19%, 22%);
+  width: 2.5em;
+  padding: 0.7em;
+  border-radius: 2em;
+}
+.rating__icone img {
+  width: 1.2em;
+}
+.rating .title {
+  color: hsl(0, 100%, 100%);
+  font-size: 2em;
+}
+
 .attribution {
   font-size: 0.7em;
   text-align: center;
@@ -31,7 +47,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 1em;
-  width: 21em;
+  width: 24em;
   padding: 2em;
   margin: 2em;
 }
